@@ -1,16 +1,16 @@
 //Definicion de reglas del juego
-let headReglas = "############################################" + "\n" +
+const HEADREGLAS = "############################################" + "\n" +
               "Bienvenido a Rocket Race " + "\n" + 
               "############################################" + "\n" +  "\n" ;
 
-let orders = "El juego consta de tres aeronaves que deben de llegar a la luna. La primera aeronave en llegar es la ganadora." + "\n" + 
+const ORDERS = "El juego consta de tres aeronaves que deben de llegar a la luna. La primera aeronave en llegar es la ganadora." + "\n" + 
               "Maximo tres aeronaves que podran ser equipadas con maximo 5 cohetes cada uno. Cuanto mas cohetes, mas pasada " + "\n" +
               "la nava, pero mas posibilidades de llegar." +  "\n" +  "\n" ;
 
-let footer = "############################################" + "\n" +
+const FOOTER = "############################################" + "\n" +
               "PRESIONE START PARA COMENZAR";
 
-alert(headReglas + orders + footer);
+alert(HEADREGLAS + ORDERS + FOOTER);
 
 //definicion de variables principales
 let rocketNumber;
